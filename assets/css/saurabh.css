@@ -1,0 +1,53 @@
+
+/* this is for desktop size*/
+@media (max-width:800px) {
+    .about-box{
+        place-content: center;
+        place-items: center;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    .about-child{
+        width:100%;
+    }
+}
+
+/* this is for small size*/
+@media (min-width:800px) {
+    .about-box{
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-child{
+        width: 49%;
+    }
+}
+/*work for all type screen*/
+.about-child{
+    text-align: center; 
+    margin-top:25px;
+    
+}
+.about-img:hover{
+    transition: 1s;
+    transform: scale(1.4);
+}
+
+
+.btn-3{
+    transition: .3s;
+    box-shadow: 1px 0px 2px 0.1px rgb(139, 139, 139);
+
+}
+.btn-3:hover{
+    transition: .3s;
+    box-shadow: 1px 0px 5px 1px green;
+
+}
+.btn-3:active{
+    transition: .3s;
+    box-shadow: 1px 0px 5px 1px green;
+background-color: black;
+color: white;
+}
